@@ -66,8 +66,3 @@ pymarkdown --config pymarkdown.json scan docs/<filename>.md
 ```
 
 > Note: `pymarkdown` does not auto-fix files — it only reports issues.
-
-Fix them:
-```bash
-pymarkdown --config pymarkdown.json fix docs/<filename>.md
-```

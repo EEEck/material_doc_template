@@ -6,13 +6,6 @@ This guide outlines how to install, run, lint, and export the documentation site
 
 ## ✅ Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/your-org/ai-compute-broker-docs.git
-cd ai-compute-broker-docs
-```
-
 Optional: Create and activate a virtual environment:
 
 ```bash

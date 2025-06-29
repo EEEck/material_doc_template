@@ -1,0 +1,117 @@
+{
+  "plugins": {
+    "md013": {
+      "enabled": true,
+      "line_length": 120,
+      "heading_line_length": 120,
+      "code_block_line_length": 120,
+      "tables": false,
+      "strict": false
+    },
+    "md007": {
+      "indent": 2
+    },
+    "md001": {
+      "enabled": true
+    },
+    "md004": {
+      "style": "consistent"
+    },
+    "md005": {
+      "enabled": true
+    },
+    "md006": {
+      "enabled": true
+    },
+    "md009": {
+      "enabled": true
+    },
+    "md010": {
+      "enabled": true
+    },
+    "md011": {
+      "enabled": true
+    },
+    "md012": {
+      "enabled": true
+    },
+    "md019": {
+      "enabled": true
+    },
+    "md022": {
+      "enabled": true
+    },
+    "md023": {
+      "enabled": true
+    },
+    "md024": {
+      "enabled": true
+    },
+    "md025": {
+      "enabled": true
+    },
+    "md026": {
+      "enabled": true
+    },
+    "md027": {
+      "enabled": true
+    },
+    "md028": {
+      "enabled": true
+    },
+    "md029": {
+      "enabled": true
+    },
+    "md030": {
+      "enabled": true
+    },
+    "md031": {
+      "enabled": true
+    },
+    "md032": {
+      "enabled": true
+    },
+    "md034": {
+      "enabled": true
+    },
+    "md035": {
+      "style": "consistent"
+    },
+    "md036": {
+      "enabled": true
+    },
+    "md037": {
+      "enabled": true
+    },
+    "md038": {
+      "enabled": true
+    },
+    "md039": {
+      "enabled": true
+    },
+    "md040": {
+      "enabled": true
+    },
+    "md042": {
+      "enabled": true
+    },
+    "md043": {
+      "enabled": false
+    },
+    "md044": {
+      "enabled": false
+    },
+    "md045": {
+      "enabled": true
+    },
+    "md046": {
+      "style": "fenced"
+    },
+    "md047": {
+      "enabled": true
+    },
+    "md048": {
+      "enabled": true
+    }
+  }
+}

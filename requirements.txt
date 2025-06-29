@@ -1,0 +1,4 @@
+mkdocs-pdf-export-plugin
+mkdocs-material 
+pymdown-extensions
+pymarkdownlint

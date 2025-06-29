@@ -1,0 +1,11 @@
+# Use all the default rules as a base
+default: true
+
+# --- Rules to Disable ---
+# MD013: Line length. This is the most common one to disable.
+MD013: false
+
+# --- Rules to Configure ---
+# MD007: Unordered list indentation. Set to a consistent 2 spaces.
+MD007:
+  indent: 2

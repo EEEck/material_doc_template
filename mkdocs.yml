@@ -1,0 +1,66 @@
+site_name: AI Compute Broker Docs
+site_url: https://example.com
+
+theme:
+  name: material
+  features:
+    - navigation.top
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+      primary: blue grey
+      accent: blue
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+      primary: blue grey
+      accent: blue
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - styles/enterprise.css
+
+plugins:
+  - search
+  - pdf-export
+
+# mkdocs.yml
+
+# ... (your site_name, theme, etc.)
+
+markdown_extensions:
+  # Enables nice formatting for admonitions (notes, warnings, etc.)
+  - admonition
+  # Adds support for attributes on markdown elements
+  - attr_list
+  # Enables collapsible "details" blocks
+  - pymdownx.details
+  # Handles code highlighting and is what enables syntax highlighting
+  - pymdownx.highlight:
+      anchor_linenums: true # Adds line numbers that are also links
+  # Allows for creating powerful, nested content blocks (great for code)
+  - pymdownx.superfences
+  # Enables emoji support
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+nav:
+  - 🏠 Home: index.md
+  - 🚀 Getting Started: getting-started.md
+  - 🔌 API Reference: api.md
+  - 🖥️ CLI Examples: cli.md
+  - 📦 Deployment: deployment.md
+  - 🎨 Icons: icons.md
+
